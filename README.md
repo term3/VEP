@@ -18,8 +18,11 @@ git clone https://github.com/Ensembl/ensembl-vep.git
 
 
 environment:
+
 export PATH=/usr/local/bin:$PATH
-cpan経由で、Perl librariesを入れた （install libraryName)
+
+import the Perl libraries via cpan（install libraryName)
+
 1) Archive::Zip
 2) DBI
 3) DBD::mysql - required for database access (--database or --cache without --offline)
