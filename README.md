@@ -1,6 +1,6 @@
 # VEP
 
-★論文 :
+★paper:
 
 https://genomemedicine.biomedcentral.com/articles/10.1186/gm543#Sec2
 
