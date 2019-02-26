@@ -13,11 +13,11 @@ https://github.com/Ensembl/ensembl-vep
 
 
 ★install : 
+
 git clone https://github.com/Ensembl/ensembl-vep.git
 
-cd ensembl-vep
-perl INSTALL.pl
 
+environment:
 export PATH=/usr/local/bin:$PATH
 cpan経由で、Perl librariesを入れた （install libraryName)
 1) Archive::Zip
@@ -30,6 +30,9 @@ cpan経由で、Perl librariesを入れた （install libraryName)
 5) PerlIO::gzip - faster compressed file parsing
 6) Bio::DB::BigFile - required for reading custom annotation data from BigWig files
 
+
+cd ensembl-vep
+perl INSTALL.pl
 
 
 
