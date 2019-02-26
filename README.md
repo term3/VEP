@@ -12,7 +12,10 @@ annotation :
 https://github.com/Ensembl/ensembl-vep
 
 install : 
+
 git clone https://github.com/Ensembl/ensembl-vep.git
+
 cd ensembl-vep
+
 perl INSTALL.pl
 
