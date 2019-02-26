@@ -10,3 +10,9 @@ http://blog.goldenhelix.com/goldenadmin/the-sate-of-variant-annotation-a-compari
 annotation :
 
 https://github.com/Ensembl/ensembl-vep
+
+install : 
+git clone https://github.com/Ensembl/ensembl-vep.git
+cd ensembl-vep
+perl INSTALL.pl
+
