@@ -12,6 +12,8 @@ git clone https://github.com/Ensembl/ensembl-vep.git
 
 environment:
 
+※https://supcom.hgc.jp/internal/q/1694/variant-effect-predictor-%E3%81%AE-%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89?show=1694#q1694
+
 export PATH=/usr/local/bin:$PATH
 
 import the Perl libraries via cpan（install libraryName)
