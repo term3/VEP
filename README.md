@@ -1,26 +1,24 @@
 # VEP
 
-論文 :
+★論文 :
 
 https://genomemedicine.biomedcentral.com/articles/10.1186/gm543#Sec2
 
 http://blog.goldenhelix.com/goldenadmin/the-sate-of-variant-annotation-a-comparison-of-annovar-snpeff-and-vep/
 
 
-annotation :
+★home_URL:
 
 https://github.com/Ensembl/ensembl-vep
 
-install : 
 
+★install : 
 git clone https://github.com/Ensembl/ensembl-vep.git
 
 cd ensembl-vep
-
 perl INSTALL.pl
 
 export PATH=/usr/local/bin:$PATH
-
 cpan経由で、Perl librariesを入れた （install libraryName)
 1) Archive::Zip
 2) DBI
